@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15 
+    environment:
+      POSTGRES_DB: nextfit
+      POSTGRES_USER: nextfit
+      POSTGRES_PASSWORD: nextfit
+    volumes:
+      - postgres_data:/var/lib/postgresql/data 
+      - ./migration.sql:/docker-entrypoint-initdb.d/migration.sql
+    ports:
+      - "8080:5432"
+    restart: always
+    command: ["postgres", "-c", "ssl=off"]
+
+volumes:
+  postgres_data: 
+  

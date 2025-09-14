@@ -61,12 +61,18 @@ cd nextfit
 
 -   Para testar a aplicação, rode o seguinte comando para inicializar o
     serviço PostgreSQL declarado no Docker.
--   As credenciais do banco ficam centralizadas no docker-compose.
-
 
 ```sh
 docker compose up -d
 ```
+
+-   As credenciais do banco ficam centralizadas no docker-compose.
+-   Após subir o docker, execute o arquivo python pelo jupyter.
+-   Com a execução via python finalizada, você pode abrir o PowerBI.
+
+
+
+
 
 
 

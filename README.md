@@ -1,4 +1,4 @@
-### 📊 RH analysis
+### 📊 RH Analytics
 
 Projeto realizado com base no dataset [Employee Attrition – Kaggle](https://www.kaggle.com/datasets/patelprashant/employee-attrition).
 
@@ -38,6 +38,7 @@ No power bi foram criadas as análises de funcionários.
 
 ## Acesso ao banco via dbvear 
 <img src="./images/dbvear.png" alt="image">
+
 
 
 

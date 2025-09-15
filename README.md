@@ -2,8 +2,6 @@
 
 Projeto realizado com base no dataset [Employee Attrition – Kaggle](https://www.kaggle.com/datasets/patelprashant/employee-attrition).
 
-![HRM](https://media.istockphoto.com/id/1467509880/pt/foto/hrm-or-human-resource-management-businessman-holding-magnifier-select-and-accept-to-manager.jpg?s=612x612&w=0&k=20&c=lVo64PlNQfejzYeAXZo7S4cPgUr4ATtPY9iK1Y2xy1U=)
-
 ### Análises
 
     - [✓] Funcionários por cidade
@@ -40,6 +38,7 @@ No power bi foram criadas as análises de funcionários.
 
 ## Acesso ao banco via dbvear 
 <img src="./images/dbvear.png" alt="image">
+
 
 
 

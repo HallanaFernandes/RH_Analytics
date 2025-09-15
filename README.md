@@ -1,8 +1,8 @@
-### RH analysis
+### 📊 RH analysis
 
+Projeto realizado com base no dataset [Employee Attrition – Kaggle](https://www.kaggle.com/datasets/patelprashant/employee-attrition).
 
-(https://media.istockphoto.com/id/1467509880/pt/foto/hrm-or-human-resource-management-businessman-holding-magnifier-select-and-accept-to-manager.jpg?s=612x612&w=0&k=20&c=lVo64PIN0pEizYeAXZo7S4cPgUr4ATPY9iKlYZxy1UY=)
-
+![HRM](https://media.istockphoto.com/id/1467509880/pt/foto/hrm-or-human-resource-management-businessman-holding-magnifier-select-and-accept-to-manager.jpg?s=612x612&w=0&k=20&c=lVo64PlNQfejzYeAXZo7S4cPgUr4ATtPY9iK1Y2xy1U=)
 
 ### Análises
 
@@ -20,23 +20,19 @@
 * SQL
 * PowerBI
 
+## 🚀 Etapas do projeto
 
-## 🚀 Clone o projeto
+### Análise exploratória, limpeza e inserção dos dados com python + pandas:
 
-Para rodar o projeto siga estas etapas:
+- Os arquivos originalmente em csv foram explorados e tratados com python, utilizando a biblioteca pandas
+- Após o tratamento, foi realizada a inserção dos dados diretamente no banco  PostgreSQL 
 
-Clone o repositorio:
-```bash
-  git clone https://github.com/HallanaFernandes/nextfit.git
-```
+### Docker + PostgreSQL
+- Foi criado um ambiente com Docker Compose, garantindo que qualquer pessoa possa rodar o banco sem precisar instalar manualmente.
+-  Dentro do banco, as tabelas foram estruturadas a partir do arquivo migration.sql.
 
-
-
-Navegue ate o diretorio do repositorio:
-```bash
-cd nextfit
-```
-
+### Análises e Visualização (Power BI): 
+No power bi foram criadas as análises de funcionários. 
 
 ## Diagrama de entidades no BI
 <img src="./images/model.png" alt="image">
@@ -46,30 +42,10 @@ cd nextfit
 <img src="./images/dbvear.png" alt="image">
 
 
-##  Testar
-
--   Para testar a aplicação, rode o seguinte comando para inicializar o
-    serviço PostgreSQL declarado no Docker.
-
-```sh
-docker compose up -d
-```
-
--   As credenciais do banco ficam centralizadas no docker-compose.
--   Após subir o docker, execute o arquivo python pelo jupyter.
--   Com a execução via python finalizada, você pode abrir o PowerBI.
 
 
 
 
 
-
-
-## Observação
-> É necessário ter todos os pré requisitos configurados localmente para poder executar o projeto
-
-
-
-[⬆ Voltar ao topo](#nextfit)<br>
 
 

@@ -1,11 +1,8 @@
 ### RH analysis
 
 
+(https://media.istockphoto.com/id/1467509880/pt/foto/hrm-or-human-resource-management-businessman-holding-magnifier-select-and-accept-to-manager.jpg?s=612x612&w=0&k=20&c=lVo64PIN0pEizYeAXZo7S4cPgUr4ATPY9iKlYZxy1UY=)
 
-
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-
-> 
 
 ### Análises
 
@@ -74,4 +71,5 @@ docker compose up -d
 
 
 [⬆ Voltar ao topo](#nextfit)<br>
+
 

@@ -1,6 +1,6 @@
-### Nextfit
+### RH analysis
 
- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSabkMRD0-eaB7UydUo_sgP2sBMyAuTlvhUFA&s" alt="image">
+
 
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
@@ -17,19 +17,11 @@
     - [✓] Turnover por ano
 
 
-## 💻 Pré-requisitos
-
-* Docker
-* Python
-* Jupyter
-
-
 ## 💻 Técnologias utilizadas
 * Docker
 * Python
 * SQL
 * PowerBI
-
 
 
 ## 🚀 Clone o projeto
@@ -82,3 +74,4 @@ docker compose up -d
 
 
 [⬆ Voltar ao topo](#nextfit)<br>
+
